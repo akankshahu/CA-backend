@@ -11,7 +11,7 @@ function calculateage(dob){
 
     }
     let age=today.getFullYear()-birthdate.getFullYear();
-    const monthdiff=today.getMonth()-birthdate.getDate.getMonth();
+    const monthdiff=today.getMonth()-birthdate.getMonth();
     if(monthdiff<0 ||(monthdiff==0  && today.getDay()<birthdate.getDay())
     ){
 age--;
